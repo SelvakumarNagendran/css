@@ -1,4 +1,4 @@
-<style> 
+
 body {
     background: white;
     color: black;
@@ -24,4 +24,48 @@ h2 {
     cursor: pointer;
     border-radius: 50%;
 }
-</style>
+
+header {
+    background-color: orange;
+    height: 50px;
+}
+
+#left {
+    background-color: green;
+    float: left;
+    height: 400px;
+    width: 33.3%;
+}
+
+#middle {
+    background-color: blueviolet;
+    float: left;
+    height: 400px;
+    width: 33.3%;
+}
+
+#right {
+    background-color: cornflowerblue;
+    float: left;
+    height: 400px;
+    width: 33.4%;
+}
+
+.boxparent {
+    background-color: blue;
+    height: 400px;
+}
+
+.box1 {
+    background-color: aqua;
+    top: 5%;
+    bottom: 1%;
+    position: relative;
+}
+
+.box2 {
+    background-color: royalblue;
+    top: 5%;
+    position: absolute;
+}
+
